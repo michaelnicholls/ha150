@@ -1,0 +1,7 @@
+-- do this in DEV (H00)
+
+
+create table training."PO.Item" like "SAP_HANA_DEMO"."sap.hana.democontent.epm.data::PO.Item" with data;
+
+create table training."MD.Products" like "SAP_HANA_DEMO"."sap.hana.democontent.epm.data::MD.Products" with data;
+
